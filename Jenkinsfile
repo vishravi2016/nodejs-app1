@@ -31,7 +31,7 @@ pipeline {
         failure{
             echo "pipeline failed"
         }
-        alwasy{
+        always{
             echo "pipeline completed"
         }
     }
